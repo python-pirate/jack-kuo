@@ -1,2 +1,2 @@
-def foo():
-    return False
+def select_sort(arr):
+    pass
