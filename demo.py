@@ -1,10 +1,10 @@
 def max_min(arr):
-    m = arr[0]
+    m = 0
     i = 1
 
     while i < len(arr):
-        if arr[i] > m:
-            m = arr[i]
+        if arr[i] > arr[m]:
+            m = i
         i += 1
 
-    return m
+    return arr[m]
